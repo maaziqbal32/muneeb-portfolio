@@ -5,7 +5,7 @@ import { ChatbotMockup } from "@/components/ChatbotMockup";
 import { Button } from "@/components/ui/button";
 import muneebPhoto from "@/assets/muneeb-folio.png";
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute("/main")({
   head: () => ({
     meta: [
       { title: "Muneeb.AI — AI Chatbot Developer & Automation Specialist" },
