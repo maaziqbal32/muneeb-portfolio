@@ -9,7 +9,9 @@
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build:client" : "vite build --outDir dist/client",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
